@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Nombre:</b>
+  <%= @plato.nombre %>
+</p>
+
+<p>
+  <b>Descripcion:</b>
+  <%= @plato.descripcion %>
+</p>
+
+<p>
+  <b>Precio:</b>
+  <%= @plato.precio %>
+</p>
+
+<p>
+  <b>Porcion completa:</b>
+  <%= @plato.porcion_completa %>
+</p>
+
+<p>
+  <b>Tipo:</b>
+  <%= @plato.tipo %>
+</p>
+
+
+<%= link_to 'Edit', edit_plato_path(@plato) %> |
+<%= link_to 'Back', platos_path %>
